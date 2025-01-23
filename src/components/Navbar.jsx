@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default async function Navbar() {
   return (
-    <nav className="bg-gradient-to-r from-indigo-600 to-purple-700 text-white p-5 shadow-lg flex justify-between items-center px-10">
+    <nav className="bg-gradient-to-r from-indigo-600 to-purple-700 text-white p-5 shadow-lg flex flex-col md:flex-row justify-between items-center px-10">
       <div>
         <Link href="/" className="text-2xl font-extrabold hover:text-indigo-400 transition-colors duration-300">
           Blog By Khan
